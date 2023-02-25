@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>about</title>
+
+</head>
+
+    <div class="about_content" style="text-align: center; font-size: 24px; font-weight: bold;">
+   <div class="text_highlight">Welcome to our travelleo app!</div>
+</div>
+
+
+    <div class="col-lg-6">
+        <div class="about_image"><img src="{% static 'images/travel.jpg' %}" alt=""style="width: 100vw;/></div>
+    </div>
+       <div class="row about_row">
+        <div class="col-lg-6">
+
+            <div class="about_text">
+                <p> We are a team of avid travelers who are passionate about exploring the world and helping others do the same. Our goal is to make travel easier, more accessible, and more enjoyable for everyone.
+
+Our app is designed to help you plan your perfect trip, whether you're looking for a relaxing beach getaway, a thrilling adventure, or a cultural immersion experience. With our app, you can easily search for flights, hotels, and activities, compare prices and reviews, and book everything in one place.
+
+We understand that travel can be daunting, especially if you're going to a new and unfamiliar destination. That's why we've included helpful resources such as travel guides, packing lists, and language phrasebooks to help you feel more prepared and confident on your journey.
+
+At our core, we believe that travel has the power to broaden horizons, deepen connections, and create unforgettable memories. We're proud to be a part of your travel journey and can't wait to see where your adventures take you.
+
+Thank you for choosing our travel app and happy travels!</p>
+            </div>
+            <div class="button about_button"><a href="{% url 'about' %}"></a></div>
+           <a href="/" class="btn btn-secondary">Back to Home</a>
+
+
+        </div>
+    </div>
+
+</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
